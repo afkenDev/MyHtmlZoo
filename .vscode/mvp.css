@@ -525,7 +525,28 @@ h1 {
 /* Centered text */
 .centered {
     position: absolute;
-    top: 12.5%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 100%;
+  }
+
+#bignormal {
+    margin: 75px 50px 0px;
+}
+#normal {
+    width: 90%;
+    margin: 20px 50px 0px;
+}
+
+#pic {
+    position: absolute;
+    left: auto;
+    width: 90%;
+    margin: 50px 50px 0px;
+}
