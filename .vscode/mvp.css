@@ -511,7 +511,21 @@ blockquote footer {
     src: url(fonts/BebasNeue-Regular.ttf);
 }
 
+#banner {
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-family: "Baba", sans-serif;
     font-size: 5em
+    
 }
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
