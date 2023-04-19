@@ -505,3 +505,13 @@ blockquote footer {
     line-height: var(--line-height);
     padding: 1.5rem 0;
 }
+
+@font-face {
+    font-family: 'Baba';
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+h1 {
+    font-family: "Baba", sans-serif;
+    font-size: 5em
+}
