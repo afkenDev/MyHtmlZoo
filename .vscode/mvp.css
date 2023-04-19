@@ -532,8 +532,11 @@ h1 {
 
 /* Top left text */
 .top-left {
-    position: absolute;
-    top: 100%;
+    margin-top: 100px;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 #bignormal {
