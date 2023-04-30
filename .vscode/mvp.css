@@ -506,6 +506,15 @@ blockquote footer {
     padding: 1.5rem 0;
 }
 
+
+/* Kenz Abdelkebir */
+
+$melon: rgba(255, 166, 158, 1); 
+$caribbean-current: rgba(22, 105, 122, 1); 
+$coffee: rgba(105, 74, 56, 1); 
+$aquamarine: rgba(169, 240, 209, 1); 
+$snow: rgba(255, 247, 248, 1);
+
 @font-face {
     font-family: 'Baba';
     src: url(fonts/BebasNeue-Regular.ttf);
