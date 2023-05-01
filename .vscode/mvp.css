@@ -509,16 +509,35 @@ blockquote footer {
 
 /* Kenz Abdelkebir */
 
-$melon: rgba(255, 166, 158, 1); 
-$caribbean-current: rgba(22, 105, 122, 1); 
-$coffee: rgba(105, 74, 56, 1); 
-$aquamarine: rgba(169, 240, 209, 1); 
-$snow: rgba(255, 247, 248, 1);
-
+/* Fonts */
 @font-face {
     font-family: 'Baba';
     src: url(fonts/BebasNeue-Regular.ttf);
 }
+
+/* Colors*/
+
+#melon {
+    color:  rgba(255, 166, 158, 1); 
+}
+
+#caribbean-current {
+    color: rgba(22, 105, 122, 1);
+}
+
+#coffe {
+    color: rgba(105, 74, 56, 1); 
+}
+
+#aquamarine {
+    color: rgba(169, 240, 209, 1);
+}
+
+#snow {
+    color: rgba(255, 247, 248, 1);
+}
+
+/* Others */
 
 #banner {
     width: 100%;
