@@ -507,7 +507,7 @@ blockquote footer {
 }
 
 
-/* Kenz Abdelkebir */
+/* Customize by Kenz Abdelkebir */
 
 /* Fonts */
 @font-face {
@@ -518,7 +518,7 @@ blockquote footer {
 /* Colors*/
 
 #melon {
-    color:  rgba(255, 166, 158, 1); 
+    color: rgba(255, 166, 158, 1);
 }
 
 #caribbean-current {
@@ -526,7 +526,7 @@ blockquote footer {
 }
 
 #coffe {
-    color: rgba(105, 74, 56, 1); 
+    color: rgba(105, 74, 56, 1);
 }
 
 #aquamarine {
@@ -546,8 +546,7 @@ blockquote footer {
 
 h1 {
     font-family: "Baba", sans-serif;
-    font-size: 5em
-    
+    font-size: 5em;
 }
 
 /* Centered text */
@@ -556,7 +555,7 @@ h1 {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 /* Top left text */
 .top-left {
@@ -565,11 +564,12 @@ h1 {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 #bignormal {
     margin: 75px 50px 0px;
 }
+
 #normal {
     width: 90%;
     margin: 20px 50px 0px;
@@ -580,4 +580,14 @@ h1 {
     left: auto;
     width: 90%;
     margin: 50px 50px 0px;
+}
+
+body {
+    position: relative;
+}
+
+#normalA {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
