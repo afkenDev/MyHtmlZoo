@@ -61,8 +61,8 @@ footer,
 header,
 main {
     margin: 0 auto;
-    max-width: var(--width-content);
-    padding: 3rem 1rem;
+    /*max-width: var(--width-content);
+    padding: 3rem 1rem;*/
 }
 
 hr {
@@ -584,10 +584,4 @@ h1 {
 
 body {
     position: relative;
-}
-
-#normalA {
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
