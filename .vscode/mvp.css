@@ -579,9 +579,31 @@ h1 {
     position: absolute;
     left: auto;
     width: 90%;
+    height: 90%;
     margin: 50px 50px 0px;
 }
 
 body {
     position: relative;
+}
+
+#plan {
+    width: 70%;
+    height: 70%;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#normalA {
+    display: flex;
+    justify-content: center;
+}
+
+#normalA button {
+    flex: 0 0 20%;
+    margin-top: 50px;
 }
