@@ -294,7 +294,7 @@ input[type="submit"] {
     font-weight: bold;
     line-height: var(--line-height);
     margin: 0.5rem 0;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
 }
 
 button,
@@ -606,4 +606,5 @@ body {
 #normalA button {
     flex: 0 0 20%;
     margin-top: 50px;
+    margin-right: 30px;
 }
