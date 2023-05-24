@@ -289,6 +289,7 @@ a em,
 a i,
 a strong,
 button,
+.button-link,
 input[type="submit"] {
   border-radius: var(--border-radius);
   display: inline-block;
@@ -299,6 +300,7 @@ input[type="submit"] {
 }
 
 button,
+.button-link,
 input[type="submit"] {
   font-family: var(--font-family);
 }
@@ -317,6 +319,7 @@ input[type="submit"]:hover {
 a b,
 a strong,
 button,
+.button-link,
 input[type="submit"] {
   background-color: var(--color-link);
   border: 2px solid var(--color-link);
@@ -546,7 +549,7 @@ h1 {
   margin: 3.906vw 2.604vw 0px;
 }
 
-#normal {
+.normal {
   width: 90%;
   margin: 1.042vw 2.604vw 0px;
 }
